@@ -1,0 +1,293 @@
+*/ {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+}
+.div-1 {
+  width: 100%;
+  height: 60px;
+  background-color: lightgrey;
+  margin-bottom: 30px;
+}
+
+.div-2 {
+  width: 25%;
+  height: 60px;
+  background-color: lightgrey;
+  margin: auto;
+}
+
+.big-box1 {
+  float: left;
+  width: 49%;
+  height: 600px;
+  background-color: lightgrey;
+  margin-top: 30px;
+}
+
+.big-box2 {
+  float: right;
+  width: 49%;
+  height: 600px;
+  background-color: lightgrey;
+  margin-top: 30px;
+}
+
+.main-outerbox::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.div-5 {
+  width: 63%;
+  height: 60px;
+  background-color: lightgrey;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.box-1 {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgrey;
+  margin-top: 45px;
+  margin-right: 15px;
+}
+
+.box-2 {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgrey;
+  margin-top: 45px;
+  margin-right: 15px;
+}
+
+.box-3 {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgrey;
+  margin-top: 45px;
+  margin-right: 15px;
+}
+
+.box-4 {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgrey;
+  margin-top: 45px;
+  margin-right: 15px;
+}
+
+.fourboxes-1::after {
+  content: "";
+  clear: both;
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.box-5 {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgrey;
+  margin-top: 45px;
+  margin-right: 15px;
+}
+
+.box-6 {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgrey;
+  margin-top: 45px;
+  margin-right: 15px;
+}
+
+.box-7 {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgrey;
+  margin-top: 45px;
+  margin-right: 15px;
+}
+
+.box-8 {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgrey;
+  margin-top: 45px;
+  margin-right: 15px;
+}
+
+.fourboxes-2::after {
+  content: "";
+  clear: both;
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.article1 {
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.article2 {
+  margin-left: 200px;
+}
+
+/* .box-below {
+  width: 80%;
+  background-color: lightgrey;
+  height: 80px;
+
+  margin-left: 135px;
+} */
+
+.large3 {
+  width: 100%;
+  height: 800px;
+  background-color: #747474;
+  margin-top: 60px;
+  display: float;
+}
+
+.innerbox01 {
+  width: 18%;
+  height: 600px;
+  background-color: #242345;
+}
+.subheader {
+  width: 80%;
+  height: 60px;
+  background-color: lightgrey;
+  margin-left: 30px;
+
+  margin-top: 36px;
+  margin-bottom: 30px;
+}
+
+.subbox-1 {
+  width: 80%;
+  height: 225px;
+  background-color: lightgrey;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.subbox-2 {
+  width: 80%;
+  height: 225px;
+  background-color: lightgrey;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.large3::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.below3header {
+  width: 30%;
+  margin-top: 45px;
+  margin-left: 557px;
+  background-color: lightgrey;
+  height: 81px;
+}
+
+.below3header2 {
+  width: 63%;
+  margin-top: 27px;
+  margin-left: 279px;
+  background-color: lightgrey;
+  height: 81px;
+}
+
+.below3header3 {
+  width: 63%;
+  margin-top: 27px;
+  margin-left: 279px;
+  background-color: lightgrey;
+  height: 81px;
+}
+.below3header4 {
+  width: 63%;
+  margin-top: 27px;
+  margin-left: 279px;
+  background-color: lightgrey;
+  height: 81px;
+}
+
+.below3header4 {
+  width: 63%;
+  margin-top: 27px;
+  margin-left: 279px;
+  background-color: lightgrey;
+  height: 369px;
+}
+
+.belowbox-1 {
+  float: left;
+  width: 500px;
+  height: 63px;
+  background-color: lightgrey;
+  margin-top: 15px;
+  margin-left: 278px;
+}
+.belowbox-2 {
+  float: right;
+  width: 500px;
+  height: 63px;
+  background-color: lightgrey;
+  margin-top: 15px;
+  margin-right: 340px;
+}
+
+.below2boxes::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.last-box {
+  width: 100%;
+  margin-top: 45px;
+  height: 270px;
+  background-color: lightgrey;
+}
+
+.last-box {
+  display: float;
+
+  justify-items: space-between;
+}
+
+.lastside-1 {
+  width: 48%;
+  height: 250px;
+  float: left;
+  background-color: rgb(86, 28, 221);
+  /* margin: auto; */
+}
+
+.lastside-2 {
+  width: 48%;
+  height: 250px;
+  float: right;
+  background-color: rgb(86, 28, 221);
+  /* margin: auto; */
+}
